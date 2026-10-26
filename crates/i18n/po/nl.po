@@ -113,8 +113,9 @@ msgstr "+{n} meer"
 
 #. interface
 #: crates/ui-egui/src/lib.rs
+#, fuzzy
 msgid ", stopped at a limit"
-msgstr ""
+msgstr ", gestopt bij een limiet"
 
 #. interface
 #: crates/ui-egui/src/sync_panel.rs
@@ -256,8 +257,9 @@ msgstr "Een groot postvak duurt even. {account} stapt over op Microsoft Graph zo
 
 #. interface
 #: crates/ui-egui/src/files.rs
+#, fuzzy
 msgid "A link asked for a new message, but the one you are writing couldn't be saved first: {why}"
-msgstr ""
+msgstr "Een koppeling vroeg om een nieuw bericht, maar het bericht dat u schrijft kon niet eerst worden opgeslagen: {why}"
 
 #. name
 #: crates/ui-egui/src/account_setup.rs
@@ -353,7 +355,7 @@ msgstr "Een afbeelding die u hebt opgevraagd, wordt een maand bewaard, zodat bij
 #: crates/ui-egui/src/account_setup.rs
 #, fuzzy
 msgid "A port is a number from 1 to 65535"
-msgstr "Een poort is een getal van 1 tot en met 65535"
+msgstr "Een poort is een getal van 1 tot 65535"
 
 #. interface
 #: crates/ui-egui/src/forms.rs
@@ -457,8 +459,9 @@ msgstr "Het accepteren van een voorstel opent de vergadering met die tijd ingevu
 
 #. interface
 #: crates/ui-egui/src/dialogs.rs
+#, fuzzy
 msgid "Access token for {account}"
-msgstr ""
+msgstr "Toegangstoken voor {account}"
 
 #. ribbon
 #: crates/ui-egui/src/ribbon.rs
@@ -714,13 +717,15 @@ msgstr "Toestaan"
 
 #. command label
 #: crates/ui-egui/src/lib.rs
+#, fuzzy
 msgid "Allow Keeping Tasks in Step with Microsoft To Do"
-msgstr ""
+msgstr "Taken bijhouden met Microsoft To Do toestaan"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Allow MailCraft to keep your tasks in step with Microsoft To Do on the page that opened in your browser…"
-msgstr ""
+msgstr "Sta MailCraft toe uw taken bij te houden met Microsoft To Do op de pagina die in uw browser is geopend…"
 
 #. interface
 #: crates/ui-egui/src/open_shared.rs
@@ -958,8 +963,9 @@ msgstr "Gedownloade berichten toepassen"
 
 #. command label
 #: crates/engine/src/cmd/tasks_remote.rs
+#, fuzzy
 msgid "Apply Downloaded To-dos"
-msgstr ""
+msgstr "Gedownloade to-do's toepassen"
 
 #. command label
 #: crates/engine/src/cmd/search_server.rs
@@ -993,8 +999,9 @@ msgstr "Verzonden agendawijzigingen toepassen"
 
 #. command label
 #: crates/engine/src/cmd/tasks_remote.rs
+#, fuzzy
 msgid "Apply Sent To-do Changes"
-msgstr ""
+msgstr "Verzonden to-dowijzigingen toepassen"
 
 #. interface, ribbon, ribbon location
 #: crates/engine/src/cmd/calendar.rs crates/engine/src/cmd/calendar/meeting.rs crates/engine/src/cmd/calendar_extra.rs crates/engine/src/cmd/zones.rs crates/ui-egui/src/forms.rs crates/ui-egui/src/ribbon.rs
@@ -1116,8 +1123,9 @@ msgstr "Opnieuw vragen voordat afbeeldingen van deze afzender worden gedownload"
 
 #. interface
 #: crates/ui-egui/src/backstage.rs
+#, fuzzy
 msgid "Ask for permission to read and change your To Do lists and tasks: Microsoft's page opens in your browser. Without it, tasks stay on this computer."
-msgstr ""
+msgstr "Vraag toestemming om uw To Do-lijsten en taken te lezen en te wijzigen: de pagina van Microsoft opent in uw browser. Zonder die toestemming blijven taken op deze computer."
 
 #. interface
 #: crates/ui-egui/src/backstage.rs
@@ -1735,8 +1743,9 @@ msgstr "Kies waar u de diagnosegegevens opslaat: de pagina van GitHub opent zodr
 
 #. interface
 #: crates/ui-egui/src/backstage.rs
+#, fuzzy
 msgid "Choose whether these tasks are sent to a Microsoft account's To Do. Nothing is sent unless you say so."
-msgstr ""
+msgstr "Kies of deze taken naar To Do van een Microsoft-account worden verzonden. Er wordt niets verzonden tenzij u dat zegt."
 
 #. interface
 #: crates/ui-egui/src/forms.rs
@@ -2480,8 +2489,9 @@ msgstr "Herinnering negeren"
 
 #. command label
 #: crates/ui-egui/src/lib.rs
+#, fuzzy
 msgid "Dismiss Settings Notice"
-msgstr ""
+msgstr "Instellingenmelding negeren"
 
 #. command label
 #: crates/ui-egui/src/lib.rs
@@ -2869,8 +2879,9 @@ msgstr "Elke gebeurtenis en taak, als .ics"
 
 #. interface
 #: crates/ui-egui/src/backstage.rs
+#, fuzzy
 msgid "Every mbox file under a folder, keeping its subfolders, into one new folder"
-msgstr ""
+msgstr "Elk mbox-bestand onder een map, met behoud van de submappen, in één nieuwe map"
 
 #. interface
 #: crates/ui-egui/src/signatures.rs
@@ -3108,8 +3119,9 @@ msgstr "Rond eerst het aanmelden af (uw browser wacht)"
 
 #. command label
 #: crates/engine/src/cmd/mail.rs
+#, fuzzy
 msgid "First Message"
-msgstr ""
+msgstr "Eerste bericht"
 
 #. interface
 #: crates/ui-egui/src/forms.rs
@@ -3341,8 +3353,9 @@ msgstr "Doorsturen…"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "Found in {path}. Nothing is imported until you press Import."
-msgstr ""
+msgstr "Gevonden in {path}. Er wordt niets geïmporteerd totdat u op Importeren drukt."
 
 #. what a command says
 #: crates/model/src/sync/progress.rs
@@ -3596,13 +3609,13 @@ msgid ""
 msgstr ""
 "Hallo,\n"
 "\n"
-"Ik wil MailCraft graag gebruiken met mijn werkaccount. MailCraft is een opensource-programma voor e-mail en agenda dat op mijn eigen computer draait. In onze organisatie mag alleen een beheerder een nieuw programma goedkeuren, dus het heeft één keer uw goedkeuring nodig, voor de hele organisatie. De pagina van Microsoft daarvoor staat hier:\n"
+"Ik wil MailCraft graag gebruiken met mijn werkaccount. MailCraft is een open-sourceprogramma voor e-mail en agenda dat op mijn eigen computer draait. Onze organisatie laat alleen een beheerder een nieuw programma goedkeuren, dus het heeft eenmalig uw goedkeuring nodig, voor de hele organisatie. De pagina van Microsoft daarvoor is hier:\n"
 "\n"
 "{link}\n"
 "\n"
-"Na uw goedkeuring toont uw browser misschien een pagina die niet bereikbaar is. Dat is de bedoeling: het is een adres op uw eigen computer waar niets luistert, en de goedkeuring is dan al gegeven.\n"
+"Nadat u hebt goedgekeurd, kan uw browser een pagina tonen die niet kan worden bereikt. Dat is te verwachten: het is een adres op uw eigen computer, waar niets luistert, en de goedkeuring is dan al gegeven.\n"
 "\n"
-"Bedankt"
+"Dank u"
 
 #. interface, name, ribbon, ribbon location
 #: crates/ui-egui/src/lib.rs crates/ui-egui/src/menubar.rs crates/ui-egui/src/ribbon.rs
@@ -3630,8 +3643,9 @@ msgstr "Deze kopie verbergen"
 
 #. interface
 #: crates/ui-egui/src/secret_field.rs
+#, fuzzy
 msgid "Hide password"
-msgstr ""
+msgstr "Wachtwoord verbergen"
 
 #. interface
 #: crates/ui-egui/src/open_shared.rs
@@ -3719,8 +3733,9 @@ msgstr "Ik ben beheerder: het voor mijn organisatie goedkeuren"
 
 #. interface
 #: crates/ui-egui/src/account_setup/help.rs
+#, fuzzy
 msgid "If no browser opened, check that this computer has a default browser (on Windows: Settings, Apps, Default apps), then press Open the page again."
-msgstr ""
+msgstr "Als er geen browser is geopend, controleer of deze computer een standaardbrowser heeft (op Windows: Instellingen, Apps, Standaard-apps) en druk daarna op De pagina opnieuw openen."
 
 #. interface
 #: crates/ui-egui/src/account_setup/help.rs
@@ -3760,8 +3775,9 @@ msgstr "Importeren"
 
 #. command label, interface
 #: crates/engine/src/cmd/file.rs crates/ui-egui/src/backstage.rs crates/ui-egui/src/dialogs.rs
+#, fuzzy
 msgid "Import a Folder of Mailboxes"
-msgstr ""
+msgstr "Een map met postvakken importeren"
 
 #. interface, name
 #: crates/engine/src/session.rs crates/ui-egui/src/calendar_view.rs crates/ui-egui/src/forms.rs crates/ui-egui/src/tasks_view.rs
@@ -3795,8 +3811,9 @@ msgstr "{what} geïmporteerd in een lokale map: Microsoft staat niet toe dat een
 
 #. interface
 #: crates/ui-egui/src/lib.rs
+#, fuzzy
 msgid "Imported {what} into the new folder {name}"
-msgstr ""
+msgstr "{what} geïmporteerd in de nieuwe map {name}"
 
 #. interface
 #: crates/ui-egui/src/lib.rs
@@ -3806,8 +3823,9 @@ msgstr "{what} geïmporteerd; gestopt na {count}: het bestand vergt meer dan é�
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "Importing… {messages} of {total}"
-msgstr ""
+msgstr "Importeren… {messages} van {total}"
 
 #. interface
 #: crates/ui-egui/src/signatures.rs
@@ -4045,8 +4063,9 @@ msgstr "De e-mail ervan wordt bijgehouden via Microsoft Graph, zonder e-mailserv
 
 #. interface
 #: crates/ui-egui/src/dialogs.rs
+#, fuzzy
 msgid "Its messages, attachments, settings and remembered sign-in go with it, and so do the calendar, contacts, tasks and working hours that came from its server."
-msgstr ""
+msgstr "De berichten, bijlagen, instellingen en de onthouden aanmelding gaan mee, en ook de agenda, contactpersonen, taken en werktijden die van de server kwamen."
 
 #. interface
 #: crates/ui-egui/src/signatures.rs
@@ -4152,8 +4171,9 @@ msgstr "Beide behouden"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Keep Tasks in Step with Microsoft To Do"
-msgstr ""
+msgstr "Taken bijhouden met Microsoft To Do"
 
 #. interface
 #: crates/ui-egui/src/graph_switch.rs
@@ -4229,8 +4249,9 @@ msgstr "Grootste bovenaan"
 
 #. command label
 #: crates/engine/src/cmd/mail.rs
+#, fuzzy
 msgid "Last Message"
-msgstr ""
+msgstr "Laatste bericht"
 
 #. name
 #: crates/time/src/lib.rs
@@ -4378,8 +4399,9 @@ msgstr "Deze vergadering wordt in uw agenda gezocht…"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "Looking… {folders}, {files}, {messages} so far"
-msgstr ""
+msgstr "Zoeken… {folders}, {files}, {messages} tot nu toe"
 
 #. interface
 #: crates/ui-egui/src/forms.rs
@@ -4419,13 +4441,15 @@ msgstr "E-mail"
 
 #. what a command says
 #: crates/engine/src/io.rs
+#, fuzzy
 msgid "Mail can't be imported into an Outbox: it would be sent."
-msgstr ""
+msgstr "E-mail kan niet in een Postvak UIT worden geïmporteerd: die zou worden verzonden."
 
 #. what a command says
 #: crates/engine/src/io.rs
+#, fuzzy
 msgid "Mail can't be imported into an Outbox: it would be sent. Choose another folder."
-msgstr ""
+msgstr "E-mail kan niet in een Postvak UIT worden geïmporteerd: die zou worden verzonden. Kies een andere map."
 
 #. what a command says
 #: crates/model/src/mailbox.rs
@@ -4557,7 +4581,7 @@ msgstr "MailCraft verzendt nog geen e-mail vanuit een JMAP-account"
 #: crates/ui-egui/src/account_setup.rs
 #, fuzzy
 msgid "MailCraft doesn't support POP yet. Use your provider's IMAP server instead (usually imap.<your domain>, port 993)."
-msgstr "MailCraft ondersteunt POP nog niet. Gebruik in plaats daarvan de IMAP-server van uw provider (meestal imap.<uw domein>, poort 993)."
+msgstr "MailCraft ondersteunt POP nog niet. Gebruik in plaats daarvan de IMAP-server van uw provider (meestal imap.<your domain>, poort 993)."
 
 #. interface
 #: crates/ui-egui/src/credits.rs
@@ -4593,7 +4617,7 @@ msgstr "MailCraft zoekt één keer per dag naar een nieuwe versie (Bestand › O
 #: crates/ui-egui/src/updates.rs
 #, fuzzy
 msgid "MailCraft now installs its updates itself. Turn this off in File › Options."
-msgstr "MailCraft installeert zijn updates nu zelf. U kunt dit uitzetten via Bestand › Opties."
+msgstr "MailCraft installeert updates nu zelf. Schakel dit uit in Bestand › Opties."
 
 #. interface
 #: crates/ui-egui/src/dialogs.rs
@@ -5773,8 +5797,9 @@ msgstr "Niets erin: vervangt wat hier open is"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "Nothing is added to your mail until it has all been read."
-msgstr ""
+msgstr "Er wordt niets aan uw e-mail toegevoegd totdat alles is gelezen."
 
 #. interface
 #: crates/ui-egui/src/mail_view.rs
@@ -6258,7 +6283,7 @@ msgstr "Favorieten van Outlook"
 #: crates/ui-egui/src
 #, fuzzy
 msgid "Outlook's Favorites are now read through Microsoft Graph. To show MailCraft's own instead, turn them off in File › Options."
-msgstr "De Favorieten van Outlook worden nu gelezen via Microsoft Graph. Zet ze uit via Bestand › Opties om in plaats daarvan die van MailCraft te tonen."
+msgstr "Favorieten van Outlook worden nu via Microsoft Graph gelezen. Om in plaats daarvan die van MailCraft te tonen, schakelt u ze uit in Bestand › Opties."
 
 #. interface
 #: crates/ui-egui/src/favorites_sync.rs
@@ -6304,13 +6329,15 @@ msgstr "p.m."
 
 #. command label
 #: crates/engine/src/cmd/mail.rs
+#, fuzzy
 msgid "Page Down"
-msgstr ""
+msgstr "Page Down"
 
 #. command label
 #: crates/engine/src/cmd/mail.rs
+#, fuzzy
 msgid "Page Up"
-msgstr ""
+msgstr "Page Up"
 
 #. interface
 #: crates/ui-egui/src/attachment_open.rs
@@ -7094,7 +7121,7 @@ msgstr "Opnieuw starten om bij te werken"
 #: crates/ui-egui/src/updates.rs
 #, fuzzy
 msgid "Restart to update is the owner's click."
-msgstr "Alleen de eigenaar kan op Opnieuw starten om bij te werken klikken."
+msgstr "Opnieuw starten om bij te werken is de klik van de eigenaar."
 
 #. ribbon
 #: crates/ui-egui/src/ribbon.rs
@@ -7620,13 +7647,15 @@ msgstr "Annulering verzenden"
 
 #. command label
 #: crates/engine/src/cmd/tasks_remote.rs
+#, fuzzy
 msgid "Send Local Tasks to To Do"
-msgstr ""
+msgstr "Lokale taken naar To Do verzenden"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Send Tasks"
-msgstr ""
+msgstr "Taken verzenden"
 
 #. interface
 #: crates/ui-egui/src/dialogs.rs
@@ -7642,8 +7671,9 @@ msgstr "Update verzenden"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Send Your Local Tasks to To Do?"
-msgstr ""
+msgstr "Uw lokale taken naar To Do verzenden?"
 
 #. interface
 #: crates/ui-egui/src/dialogs.rs crates/ui-egui/src/reading/invitation.rs
@@ -7701,13 +7731,15 @@ msgstr "De update naar hen verzenden? De server van het account stuurt hun de wi
 
 #. interface
 #: crates/ui-egui/src/backstage.rs
+#, fuzzy
 msgid "Send to To Do…"
-msgstr ""
+msgstr "Naar To Do verzenden…"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Send to {address}"
-msgstr ""
+msgstr "Verzenden naar {address}"
 
 #. interface
 #: crates/ui-egui/src/meeting_dialogs.rs
@@ -7723,10 +7755,11 @@ msgstr "Uw antwoord naar de organisator verzenden? U kunt er een notitie bij sch
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Send your {n} local task to {address}'s To Do?"
 msgid_plural "Send your {n} local tasks to {address}'s To Do?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Uw {n} lokale taak naar To Do van {address} verzenden?"
+msgstr[1] "Uw {n} lokale taken naar To Do van {address} verzenden?"
 
 #. interface, ribbon
 #: crates/ui-egui/src/chrome.rs crates/ui-egui/src/dialogs.rs crates/ui-egui/src/ribbon.rs
@@ -8062,8 +8095,9 @@ msgstr "Weergeven in de tijdbalk"
 
 #. interface
 #: crates/ui-egui/src/secret_field.rs
+#, fuzzy
 msgid "Show password"
-msgstr ""
+msgstr "Wachtwoord tonen"
 
 #. interface
 #: crates/ui-egui/src/sender_images.rs
@@ -8659,43 +8693,51 @@ msgstr "Taken"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks stay on this computer for now: {error}"
-msgstr ""
+msgstr "Taken blijven voorlopig op deze computer: {error}"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks weren't allowed to be kept in step: {error}"
-msgstr ""
+msgstr "Taken mochten niet worden bijgehouden: {error}"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks: asking for your permission…"
-msgstr ""
+msgstr "Taken: uw toestemming wordt gevraagd…"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks: kept in step with Microsoft To Do"
-msgstr ""
+msgstr "Taken: bijgehouden met Microsoft To Do"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks: kept on this computer only (not allowed yet)"
-msgstr ""
+msgstr "Taken: alleen op deze computer bewaard (nog niet toegestaan)"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks: not allowed ({why})"
-msgstr ""
+msgstr "Taken: niet toegestaan ({why})"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks: not asked yet"
-msgstr ""
+msgstr "Taken: nog niet gevraagd"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Tasks: waiting for your permission"
-msgstr ""
+msgstr "Taken: wacht op uw toestemming"
 
 #. name
 #: crates/model/src/calendar.rs
@@ -9115,7 +9157,7 @@ msgstr "De map „{folder}” en alles daarin worden verwijderd."
 #: crates/ui-egui/src/account_setup.rs
 #, fuzzy
 msgid "The incoming mail server isn't a host name (letters, digits, dots and dashes)"
-msgstr "De server voor inkomende e-mail is geen hostnaam (letters, cijfers, punten en streepjes)"
+msgstr "De inkomende e-mailserver is geen hostnaam (letters, cijfers, punten en streepjes)"
 
 #. interface
 #: crates/ui-egui/src/backstage.rs
@@ -9203,8 +9245,9 @@ msgstr "Het bericht dat u aan het schrijven bent, heeft wijzigingen die niet zij
 
 #. interface
 #: crates/ui-egui/src/files.rs
+#, fuzzy
 msgid "The message you were writing was saved to Drafts; a link opened a new one"
-msgstr ""
+msgstr "Het bericht dat u schreef is opgeslagen in Concepten; een koppeling heeft een nieuw bericht geopend"
 
 #. interface
 #: crates/ui-egui/src/backstage.rs
@@ -9246,13 +9289,13 @@ msgstr "De organisator van deze vergadering neemt geen voorstellen voor een ande
 #: crates/ui-egui/src/account_setup.rs
 #, fuzzy
 msgid "The outgoing mail server isn't a host name (letters, digits, dots and dashes)"
-msgstr "De server voor uitgaande e-mail is geen hostnaam (letters, cijfers, punten en streepjes)"
+msgstr "De uitgaande e-mailserver is geen hostnaam (letters, cijfers, punten en streepjes)"
 
 #. interface
 #: crates/ui-egui/src/updates.rs
 #, fuzzy
 msgid "The owner hasn't allowed update checks."
-msgstr "De eigenaar heeft het zoeken naar updates niet toegestaan."
+msgstr "De eigenaar heeft het controleren op updates niet toegestaan."
 
 #. interface
 #: crates/ui-egui/src/signatures.rs
@@ -9280,8 +9323,9 @@ msgstr "De server heeft niet aangegeven wanneer andere personen bezet zijn"
 
 #. interface
 #: crates/ui-egui/src/graph_fetch.rs crates/ui-egui/src/reading.rs
+#, fuzzy
 msgid "The server turned down the sign-in for this account. Use Send/Receive to sign in again."
-msgstr ""
+msgstr "De server heeft de aanmelding voor dit account geweigerd. Gebruik Verzenden/ontvangen om opnieuw aan te melden."
 
 #. what a command says
 #: crates/engine/src/cmd/jmap_mail.rs
@@ -9297,18 +9341,21 @@ msgstr "De naam van de server"
 
 #. interface
 #: crates/ui-egui/src/settings_notice.rs
+#, fuzzy
 msgid "The settings file (ui.json) couldn't be read, so the default settings were restored. It couldn't be renamed, so it was left as it is and won't be overwritten."
-msgstr ""
+msgstr "Het instellingenbestand (ui.json) kon niet worden gelezen, dus de standaardinstellingen zijn hersteld. Het kon niet worden hernoemd, dus het is gelaten zoals het is en wordt niet overschreven."
 
 #. interface
 #: crates/ui-egui/src/settings_notice.rs
+#, fuzzy
 msgid "The settings file (ui.json) couldn't be read, so the default settings were restored. It was left as it is and won't be overwritten."
-msgstr ""
+msgstr "Het instellingenbestand (ui.json) kon niet worden gelezen, dus de standaardinstellingen zijn hersteld. Het is gelaten zoals het is en wordt niet overschreven."
 
 #. interface
 #: crates/ui-egui/src/settings_notice.rs
+#, fuzzy
 msgid "The settings file (ui.json) couldn't be read, so the default settings were restored. The old file was renamed {file}."
-msgstr ""
+msgstr "Het instellingenbestand (ui.json) kon niet worden gelezen, dus de standaardinstellingen zijn hersteld. Het oude bestand is hernoemd naar {file}."
 
 #. interface
 #: crates/ui-egui/src/dialogs.rs
@@ -9378,8 +9425,9 @@ msgstr "De referentieopslag van het systeem is vergrendeld, of het ontgrendelen 
 
 #. interface
 #: crates/ui-egui/src/data_removal.rs
+#, fuzzy
 msgid "The system's credential store: {key}"
-msgstr ""
+msgstr "De referentieopslag van het systeem: {key}"
 
 #. interface
 #: crates/ui-egui/src/calendar_sync.rs
@@ -9395,18 +9443,21 @@ msgstr "De testafspraak is weer verdwenen. Er is verder niets in de agenda gelez
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "The to-dos couldn't be kept in step: the job stopped unexpectedly"
-msgstr ""
+msgstr "De to-do's konden niet worden bijgehouden: het is onverwacht gestopt"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "The to-dos couldn't be taken in: {error}"
-msgstr ""
+msgstr "De to-do's konden niet worden opgehaald: {error}"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "The to-dos sent couldn't be noted: {error}"
-msgstr ""
+msgstr "De verzonden to-do's konden niet worden genoteerd: {error}"
 
 #. interface
 #: crates/ui-egui/src/meeting_dialogs.rs crates/ui-egui/src/reading/invitation.rs crates/ui-egui/src/report_problem.rs
@@ -9470,13 +9521,15 @@ msgstr "Deze konden niet worden verwijderd. Verwijder ze zelf:"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "These tasks exist only on this computer. Choose the Microsoft account whose To Do gets them, and every task you make from now on. Until you choose, they stay here and nothing of them is sent."
-msgstr ""
+msgstr "Deze taken bestaan alleen op deze computer. Kies het Microsoft-account waarvan To Do ze krijgt, en elke taak die u vanaf nu maakt. Totdat u kiest, blijven ze hier en wordt er niets van verzonden."
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "These tasks exist only on this computer. If you send them, they and every task you make from now on are kept in step with Microsoft To Do. Until you do, they stay here and nothing of them is sent. File › Info offers this again."
-msgstr ""
+msgstr "Deze taken bestaan alleen op deze computer. Als u ze verzendt, worden zij en elke taak die u vanaf nu maakt bijgehouden met Microsoft To Do. Totdat u dat doet, blijven ze hier en wordt er niets van verzonden. Bestand › Info biedt dit opnieuw aan."
 
 #. interface
 #: crates/ui-egui/src/data_removal.rs
@@ -9528,8 +9581,9 @@ msgstr "Dit account heeft geen aanmelding bij Microsoft"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "This account may not use its to-dos through Microsoft Graph"
-msgstr ""
+msgstr "Dit account mag zijn to-do's niet via Microsoft Graph gebruiken"
 
 #. what a command says
 #: crates/engine/src/cmd/remote.rs
@@ -9911,8 +9965,9 @@ msgstr "Dit bericht is geen uitnodiging die kan worden beantwoord."
 
 #. what a command says
 #: crates/engine/src/cmd/calendar/invitation.rs
+#, fuzzy
 msgid "This message isn't from the organizer of that meeting, so it can't call it off: take the meeting out of the calendar yourself."
-msgstr ""
+msgstr "Dit bericht is niet van de organisator van die vergadering, dus het kan die niet annuleren: haal de vergadering zelf uit de agenda."
 
 #. interface
 #: crates/ui-egui/src/graph_fetch.rs crates/ui-egui/src/reading.rs
@@ -10118,11 +10173,15 @@ msgstr ""
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid ""
 "To keep the tasks of {address} in step with Microsoft To Do, MailCraft needs your permission to read and change your To Do lists and tasks. Microsoft's page opens in your browser to ask you, once.\n"
 "\n"
 "Until you allow it, tasks stay on this computer and nothing of them is sent to Microsoft."
 msgstr ""
+"Om de taken van {address} bij te houden met Microsoft To Do, heeft MailCraft uw toestemming nodig om uw To Do-lijsten en taken te lezen en te wijzigen. De pagina van Microsoft opent in uw browser om het u te vragen, één keer.\n"
+"\n"
+"Totdat u het toestaat, blijven taken op deze computer en wordt er niets van naar Microsoft verzonden."
 
 #. interface
 #: crates/ui-egui/src/open_shared.rs
@@ -10162,8 +10221,9 @@ msgstr ""
 
 #. command label
 #: crates/engine/src/cmd/tasks_remote.rs
+#, fuzzy
 msgid "To-do Changes to Send"
-msgstr ""
+msgstr "To-dowijzigingen om te verzenden"
 
 #. what a command says
 #: crates/engine/src/cmd/compose.rs
@@ -10265,7 +10325,7 @@ msgstr "dinsdag"
 #: crates/ui-egui/src/updates.rs
 #, fuzzy
 msgid "Turned off by your organisation"
-msgstr "Uitgezet door uw organisatie"
+msgstr "Uitgeschakeld door uw organisatie"
 
 #. interface
 #: crates/ui-egui/src/people_view.rs
@@ -10295,7 +10355,7 @@ msgstr "Typen"
 #: crates/ui-egui/src/account_setup.rs
 #, fuzzy
 msgid "Type the name of the incoming mail server"
-msgstr "Typ de naam van de server voor inkomende e-mail"
+msgstr "Typ de naam van de inkomende e-mailserver"
 
 #. interface
 #: crates/ui-egui/src/dialogs.rs
@@ -10937,8 +10997,9 @@ msgstr "Uw naam"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Your organisation doesn't allow MailCraft to keep tasks in step with Microsoft To Do"
-msgstr ""
+msgstr "Uw organisatie staat MailCraft niet toe taken bij te houden met Microsoft To Do"
 
 #. interface
 #: crates/ui-egui/src/shared_calendars.rs
@@ -10974,24 +11035,25 @@ msgstr "Uw organisatie laat deze machtiging alleen door haar beheerders verlenen
 #: crates/ui-egui/src/account_setup/help.rs
 #, fuzzy
 msgid "Your organisation lets only an administrator approve a new program, and none has approved MailCraft yet. Nothing is wrong with your account or your password."
-msgstr "In uw organisatie mag alleen een beheerder een nieuw programma goedkeuren, en nog niemand heeft MailCraft goedgekeurd. Er is niets mis met uw account of uw wachtwoord."
+msgstr "Uw organisatie laat alleen een beheerder een nieuw programma goedkeuren, en nog niemand heeft MailCraft goedgekeurd. Er is niets mis met uw account of uw wachtwoord."
 
 #. interface
 #: crates/ui-egui/src/account_setup/help.rs
 #, fuzzy
 msgid "Your organisation lets only an administrator approve a new program. Nothing is wrong with your account or your password, and there is nothing to wait for here."
-msgstr "In uw organisatie mag alleen een beheerder een nieuw programma goedkeuren. Er is niets mis met uw account of uw wachtwoord, en hier valt niets op te wachten."
+msgstr "Uw organisatie laat alleen een beheerder een nieuw programma goedkeuren. Er is niets mis met uw account of uw wachtwoord, en hier is niets om op te wachten."
 
 #. interface
 #: crates/ui-egui/src/account_setup/help.rs
 #, fuzzy
 msgid "Your organisation then lets only an administrator approve a new program. Nothing is wrong with your account or your password."
-msgstr "In uw organisatie mag dan alleen een beheerder een nieuw programma goedkeuren. Er is niets mis met uw account of uw wachtwoord."
+msgstr "Uw organisatie laat daarna alleen een beheerder een nieuw programma goedkeuren. Er is niets mis met uw account of uw wachtwoord."
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "Your organisation's administrator has to approve keeping tasks in step with Microsoft To Do once: File › Info"
-msgstr ""
+msgstr "De beheerder van uw organisatie moet het bijhouden van taken met Microsoft To Do één keer goedkeuren: Bestand › Info"
 
 #. interface
 #: crates/ui-egui/src/open_shared.rs
@@ -11243,10 +11305,11 @@ msgstr[1] "en nog {n}"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "and {n} more folder"
 msgid_plural "and {n} more folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "en nog {n} map"
+msgstr[1] "en nog {n} mappen"
 
 #. what a command says, why a command can't run
 #: crates/engine/src/cmd/calendar.rs crates/engine/src/cmd/calendar/invitation.rs
@@ -11256,8 +11319,9 @@ msgstr "agenda"
 
 #. what a command says
 #: crates/engine/src/import_tree.rs
+#, fuzzy
 msgid "cancelled"
-msgstr ""
+msgstr "geannuleerd"
 
 #. what a command says
 #: crates/engine/src/cmd/people.rs
@@ -11437,8 +11501,9 @@ msgstr "het klikt of typt in het venster"
 
 #. interface
 #: crates/ui-egui/src/data_removal.rs
+#, fuzzy
 msgid "it could not be removed"
-msgstr ""
+msgstr "het kon niet worden verwijderd"
 
 #. name
 #: crates/engine/src/agent.rs
@@ -11676,8 +11741,9 @@ msgstr "geen handtekening met de naam „{name}”"
 
 #. what a command says
 #: crates/engine/src/cmd/tasks_remote.rs
+#, fuzzy
 msgid "no such account"
-msgstr ""
+msgstr "geen dergelijk account"
 
 #. what a command says
 #: crates/engine/src/cmd/mail.rs
@@ -11711,8 +11777,9 @@ msgstr "er is niets geselecteerd in het bericht"
 
 #. what a command says
 #: crates/engine/src/import_tree.rs
+#, fuzzy
 msgid "nothing is waiting to be imported"
-msgstr ""
+msgstr "er wacht niets om te worden geïmporteerd"
 
 #. why a command can't run
 #: crates/engine/src/cmd/search_server.rs
@@ -11772,7 +11839,7 @@ msgstr "op"
 #: crates/engine/src/cmd/compose.rs
 #, fuzzy
 msgid "only the headers of this message are here, so it can't be forwarded as an attachment"
-msgstr "alleen de kopteksten van dit bericht staan hier, dus het kan niet als bijlage worden doorgestuurd"
+msgstr "alleen de kopteksten van dit bericht zijn hier, dus het kan niet als bijlage worden doorgestuurd"
 
 #. why a command can't run
 #: crates/engine/src/cmd/calendar/invitation.rs
@@ -11908,8 +11975,9 @@ msgstr "dat bericht wordt niet vastgehouden"
 
 #. what a command says
 #: crates/engine/src/import_tree.rs
+#, fuzzy
 msgid "that was only looked at, not read in full"
-msgstr ""
+msgstr "dat is alleen bekeken, niet volledig gelezen"
 
 #. what a command says
 #: crates/engine/src/cmd/calendar/invitation.rs crates/engine/src/cmd/calendar_opened.rs crates/engine/src/cmd/compose.rs
@@ -11925,8 +11993,9 @@ msgstr "de browser kan geen kopie van het postvak ernaast bewaren: schakel over 
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "the browser can't read folders by path"
-msgstr ""
+msgstr "de browser kan mappen niet via een pad lezen"
 
 #. what a command says
 #: crates/engine/src/cmd/calendar/meeting.rs
@@ -12218,8 +12287,9 @@ msgstr "deze Verzenden/ontvangen was voor een ander account, niet voor {name}"
 
 #. what a command says
 #: crates/engine/src/cmd/jmap_mail.rs
+#, fuzzy
 msgid "this Send/Receive was for the server {name} named before"
-msgstr ""
+msgstr "deze Verzenden/ontvangen was voor de eerder genoemde server {name}"
 
 #. what a command says
 #: crates/engine/src/cmd/compose.rs
@@ -12297,13 +12367,13 @@ msgstr "dit bericht heeft geen onderwerp om naar te zoeken"
 #: crates/engine/src/cmd/compose.rs
 #, fuzzy
 msgid "this message isn't downloaded yet: open it once you're online, then forward it as an attachment"
-msgstr "dit bericht is nog niet gedownload: open het zodra u online bent en stuur het daarna door als bijlage"
+msgstr "dit bericht is nog niet gedownload: open het zodra u online bent en stuur het daarna als bijlage door"
 
 #. what a command says
 #: crates/engine/src/cmd/compose.rs
 #, fuzzy
 msgid "this message was too large to download: only its header is here, so it can't be forwarded as an attachment"
-msgstr "dit bericht was te groot om te downloaden: alleen de koptekst staat hier, dus het kan niet als bijlage worden doorgestuurd"
+msgstr "dit bericht was te groot om te downloaden: alleen de koptekst is hier, dus het kan niet als bijlage worden doorgestuurd"
 
 #. what a command says
 #: crates/engine/src/cmd/calendar.rs crates/engine/src/cmd/calendar/invitation.rs
@@ -12327,8 +12397,9 @@ msgstr[1] "keer"
 
 #. what a command says
 #: crates/engine/src/cmd/tasks.rs
+#, fuzzy
 msgid "too many deletions are waiting to be sent to Microsoft To Do; wait for them to go first"
-msgstr ""
+msgstr "er wachten te veel verwijderingen om naar Microsoft To Do te worden verzonden; wacht eerst tot die weg zijn"
 
 #. interface
 #: crates/ui-egui/src/data_removal.rs
@@ -12538,8 +12609,9 @@ msgstr "{done} van {total}"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "{folders} will be made under a new folder called {name} on this computer, with {messages}."
-msgstr ""
+msgstr "{folders} worden aangemaakt onder een nieuwe map met de naam {name} op deze computer, met {messages}."
 
 #. interface
 #: crates/ui-egui/src/lib.rs crates/ui-egui/src/nav.rs
@@ -12947,24 +13019,27 @@ msgstr[1] "{n} gebeurtenissen in beeld"
 
 #. interface
 #: crates/ui-egui/src/lib.rs
+#, fuzzy
 msgid "{n} file left out"
 msgid_plural "{n} files left out"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} bestand weggelaten"
+msgstr[1] "{n} bestanden weggelaten"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "{n} file or folder is left out: not a mailbox file, a link, or over a limit"
 msgid_plural "{n} files or folders are left out: not mailbox files, links, or over a limit"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} bestand of map wordt weggelaten: geen postvakbestand, een koppeling, of boven een limiet"
+msgstr[1] "{n} bestanden of mappen worden weggelaten: geen postvakbestanden, koppelingen, of boven een limiet"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "{n} folder"
 msgid_plural "{n} folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} map"
+msgstr[1] "{n} mappen"
 
 #. date and time, interface
 #: crates/i18n/src/date.rs crates/ui-egui/src/reminders.rs
@@ -13016,10 +13091,11 @@ msgstr[1] "{n} items geselecteerd"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "{n} mailbox file"
 msgid_plural "{n} mailbox files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} postvakbestand"
+msgstr[1] "{n} postvakbestanden"
 
 #. interface
 #: crates/ui-egui/src/backstage.rs crates/ui-egui/src/folder_properties.rs crates/ui-egui/src/import_tree.rs crates/ui-egui/src/lib.rs crates/ui-egui/src/mail_view.rs
@@ -13047,10 +13123,11 @@ msgstr[1] "{n} berichten in dit gesprek:"
 
 #. interface
 #: crates/ui-egui/src/import_tree.rs
+#, fuzzy
 msgid "{n} message is already here and is left out"
 msgid_plural "{n} messages are already here and are left out"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} bericht is al hier en wordt weggelaten"
+msgstr[1] "{n} berichten zijn al hier en worden weggelaten"
 
 #. interface
 #: crates/ui-egui/src/forms.rs
@@ -13200,10 +13277,11 @@ msgstr[1] "{n} problemen"
 
 #. interface
 #: crates/ui-egui/src/lib.rs
+#, fuzzy
 msgid "{n} remembered sign-in could not be removed from the credential store"
 msgid_plural "{n} remembered sign-ins could not be removed from the credential store"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} onthouden aanmelding kon niet uit de referentieopslag worden verwijderd"
+msgstr[1] "{n} onthouden aanmeldingen konden niet uit de referentieopslag worden verwijderd"
 
 #. interface
 #: crates/ui-egui/src/alerts.rs
@@ -13253,10 +13331,11 @@ msgstr[1] "{n} taken"
 
 #. interface
 #: crates/ui-egui/src/task_sync.rs
+#, fuzzy
 msgid "{n} task exists only on this computer"
 msgid_plural "{n} tasks exist only on this computer"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{n} taak bestaat alleen op deze computer"
+msgstr[1] "{n} taken bestaan alleen op deze computer"
 
 #. interface
 #: crates/ui-egui/src/backstage.rs crates/ui-egui/src/folder_properties.rs
@@ -13350,8 +13429,9 @@ msgstr "{rule}, vanaf {day}"
 
 #. interface
 #: crates/ui-egui/src/lib.rs
+#, fuzzy
 msgid "{said}; {left}{more}"
-msgstr ""
+msgstr "{said}; {left}{more}"
 
 #. interface
 #: crates/ui-egui/src/lib.rs
@@ -13438,12 +13518,3 @@ msgstr "{why}, waardoor aanmeldingen niet worden onthouden: MailCraft vraagt het
 #, fuzzy
 msgid "{why}. {n} changes made in it here wait on this computer."
 msgstr "{why}. {n} wijzigingen die hierin zijn gemaakt, wachten op deze computer."
-
-#, fuzzy
-#~ msgid "Its messages, attachments, settings and remembered sign-in go with it, and so do the calendar, contacts and working hours that came from its server."
-#~ msgstr "De berichten, bijlagen, instellingen en de onthouden aanmelding gaan mee, net als de agenda, de contactpersonen en de werktijden die van de server kwamen."
-
-#, fuzzy
-#~ msgid "Its messages, attachments, settings and remembered sign-in go with it."
-#~ msgstr "De berichten, bijlagen, instellingen en de onthouden aanmelding gaan mee."
-
