@@ -5,6 +5,38 @@ plan/
 /corpus
 /log
 .DS_Store
-/.claude/
+
+# Claude's own settings stay local, except the rule files, the hooks and
+# settings.json, which are the project's and contributors read them.
+/.claude/*
+!/.claude/rules/
+!/.claude/hooks/
+!/.claude/settings.json
+
+# Memory: local to this repository, and not a project fact.
+/memory/
+/PROGRESS.md
 /target-*/
 /craft-fonts/
+.gitignore
+NAGENTS.MD
+.claude/settings.json
+.claude/hooks/memory-grep.sh
+.claude/hooks/pre-compact.sh
+.claude/hooks/session-start.sh
+.claude/rules/architecture.md
+.claude/rules/assets.md
+.claude/rules/crash.md
+.claude/rules/credits.md
+.claude/rules/docs-progress.md
+.claude/rules/ews.md
+.claude/rules/graph-favorites.md
+.claude/rules/html-display.md
+.claude/rules/memory.md
+.claude/rules/oauth.md
+.claude/rules/pictures.md
+.claude/rules/provider.md
+.claude/rules/secrets.md
+.claude/rules/sender-images.md
+.claude/rules/tests.md
+.claude/rules/transport.md
